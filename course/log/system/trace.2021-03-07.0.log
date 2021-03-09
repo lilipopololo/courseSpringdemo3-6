@@ -1,5 +1,5 @@
 2021-03-07 17:35:02.230 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.7.Final
-2021-03-07 17:35:03.701 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-03-07 17:35:03.701 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-03-07 17:35:04.112 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=893d016c-f510-399a-a89b-1479f1355c8d
 2021-03-07 17:35:04.454 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
 2021-03-07 17:35:04.461 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
@@ -104,7 +104,7 @@
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:16)
+	at com.course.SystemApplication.main(SystemApplication.java:16)
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -184,7 +184,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:16)
+	at com.course.SystemApplication.main(SystemApplication.java:16)
 
 2021-03-07 17:35:11.980 INFO  com.netflix.discovery.DiscoveryClient             :443  [32m        [0;39m Initial registry fetch from primary servers failed
 2021-03-07 17:35:11.980 WARN  com.netflix.discovery.DiscoveryClient             :304  [32m        [0;39m Using default backup registry implementation which does not do anything.
@@ -198,9 +198,9 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2021-03-07 17:35:11.990 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
 2021-03-07 17:35:12.008 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path ''
 2021-03-07 17:35:12.009 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-03-07 17:35:12.269 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 11.494 seconds (JVM running for 12.083)
-2021-03-07 17:35:12.270 INFO  com.course.system.SystemApplication               :17   [32m        [0;39m 启动 Eureka
-2021-03-07 17:35:12.270 INFO  com.course.system.SystemApplication               :18   [32m        [0;39m System地址：http://127.0.0.1:9001
+2021-03-07 17:35:12.269 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 11.494 seconds (JVM running for 12.083)
+2021-03-07 17:35:12.270 INFO  com.course.SystemApplication               :17   [32m        [0;39m 启动 Eureka
+2021-03-07 17:35:12.270 INFO  com.course.SystemApplication               :18   [32m        [0;39m System地址：http://127.0.0.1:9001
 2021-03-07 17:35:15.792 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-03-07 17:35:15.793 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
 2021-03-07 17:35:15.797 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 4 ms
@@ -300,7 +300,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-03-07 17:35:41.984 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
 2021-03-07 17:35:41.984 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
 2021-03-07 17:39:40.068 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.7.Final
-2021-03-07 17:39:41.551 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-03-07 17:39:41.551 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-03-07 17:39:41.951 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=8b1a560b-e5d1-3b58-b597-022502432136
 2021-03-07 17:39:42.144 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
 2021-03-07 17:39:42.151 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
@@ -343,9 +343,9 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-03-07 17:39:45.748 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
 2021-03-07 17:39:45.794 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001 - registration status: 204
 2021-03-07 17:39:46.914 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
-2021-03-07 17:39:46.921 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 8.277 seconds (JVM running for 8.925)
-2021-03-07 17:39:46.922 INFO  com.course.system.SystemApplication               :18   [32m        [0;39m 启动 Eureka
-2021-03-07 17:39:46.923 INFO  com.course.system.SystemApplication               :19   [32m        [0;39m System地址：http://127.0.0.1:9001
+2021-03-07 17:39:46.921 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 8.277 seconds (JVM running for 8.925)
+2021-03-07 17:39:46.922 INFO  com.course.SystemApplication               :18   [32m        [0;39m 启动 Eureka
+2021-03-07 17:39:46.923 INFO  com.course.SystemApplication               :19   [32m        [0;39m System地址：http://127.0.0.1:9001
 2021-03-07 17:40:15.727 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
 2021-03-07 17:40:15.727 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
 2021-03-07 17:40:15.727 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
@@ -355,7 +355,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 2021-03-07 17:40:15.727 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
 2021-03-07 17:40:15.765 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
 2021-03-07 22:04:29.230 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.7.Final
-2021-03-07 22:04:30.711 INFO  com.course.system.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
+2021-03-07 22:04:30.711 INFO  com.course.SystemApplication               :651  [32m        [0;39m No active profile set, falling back to default profiles: default
 2021-03-07 22:04:31.123 INFO  o.springframework.cloud.context.scope.GenericScope:295  [32m        [0;39m BeanFactory id=8b1a560b-e5d1-3b58-b597-022502432136
 2021-03-07 22:04:31.326 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
 2021-03-07 22:04:31.334 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
@@ -460,7 +460,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:17)
+	at com.course.SystemApplication.main(SystemApplication.java:17)
 Caused by: java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -540,7 +540,7 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at com.course.system.SystemApplication.main(SystemApplication.java:17)
+	at com.course.SystemApplication.main(SystemApplication.java:17)
 
 2021-03-07 22:04:39.106 INFO  com.netflix.discovery.DiscoveryClient             :443  [32m        [0;39m Initial registry fetch from primary servers failed
 2021-03-07 22:04:39.106 WARN  com.netflix.discovery.DiscoveryClient             :304  [32m        [0;39m Using default backup registry implementation which does not do anything.
@@ -554,9 +554,9 @@ Caused by: java.net.ConnectException: Connection refused: connect
 2021-03-07 22:04:39.117 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
 2021-03-07 22:04:39.136 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
 2021-03-07 22:04:39.137 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :145  [32m        [0;39m Updating port to 9001
-2021-03-07 22:04:39.306 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 11.499 seconds (JVM running for 12.137)
-2021-03-07 22:04:39.308 INFO  com.course.system.SystemApplication               :18   [32m        [0;39m 启动 Eureka
-2021-03-07 22:04:39.308 INFO  com.course.system.SystemApplication               :19   [32m        [0;39m System地址：http://127.0.0.1:9001
+2021-03-07 22:04:39.306 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 11.499 seconds (JVM running for 12.137)
+2021-03-07 22:04:39.308 INFO  com.course.SystemApplication               :18   [32m        [0;39m 启动 Eureka
+2021-03-07 22:04:39.308 INFO  com.course.SystemApplication               :19   [32m        [0;39m System地址：http://127.0.0.1:9001
 2021-03-07 22:04:42.831 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001 - registration status: 204
 2021-03-07 22:05:09.120 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
 2021-03-07 22:05:09.120 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
